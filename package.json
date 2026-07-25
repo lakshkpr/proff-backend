@@ -1,0 +1,16 @@
+{
+  "name": "proff.-be-app",
+  "version": "1.0.0",
+  "description": "my first professionally setup backend",
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "license": "ISC",
+  "author": "Lakshay kapoor",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

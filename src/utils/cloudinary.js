@@ -17,7 +17,7 @@ const uploadingOnCloudinary= async function(localFilePath) {
         })
         /// from now if file has been uploaded successfully then
         console.log("file uploaded successfully", response.url)
-        return response.url
+        return response
         /// we have returned response to the user so that it can extract url req from it
         
     } catch (error) {
@@ -33,3 +33,5 @@ cloudinary.config({
         api_key: process.env.CLOUDINARY_API_KEY, 
         api_secret: process.env.CLOUDINARY_API_SECRET
     });
+
+ export {uploadingOnCloudinary}   
